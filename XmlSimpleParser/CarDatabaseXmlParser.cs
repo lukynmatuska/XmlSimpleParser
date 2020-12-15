@@ -53,7 +53,6 @@ namespace XmlSimpleParser
             using(FileStream stream = new FileStream(filePath, FileMode.Open, FileAccess.Read))
             {
                 return serializer.Deserialize(stream) as CarDatabase;
-                
             }
         }
     }
